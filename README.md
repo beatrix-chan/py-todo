@@ -29,7 +29,7 @@ A to-do list app built mainly with Python.
 ## Getting Started
 
 > [!IMPORTANT]
-> **Prerequisite**: Python 3.13+
+> **Prerequisite**: Python 3.13.9+
 
 It is recommended to use a virtual environment. I personally uses [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), which is a miniature version of Anaconda Distribution. I also use [`mamba`](https://github.com/mamba-org/mamba) as my package manager, and install packages via `conda-forge` channel. You may continue following along if you are using miniconda (assuming if you installed it on your system already; you may skip to [Creating virtual environment](#creating-virtual-environment) if you are already using `mamba` and `conda-forge`), or you may follow [Streamlit](https://docs.streamlit.io/get-started/installation)'s guide on installation.
 
@@ -52,6 +52,8 @@ conda config --show channels
 ```
 
 #### Creating virtual environment
+
+[Streamlit supports python version 3.9 to 3.13](https://docs.streamlit.io/get-started/installation/command-line#prerequisites).
 
 ```bash
 # Create a virtual environment
