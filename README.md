@@ -1,6 +1,9 @@
 # py-todo
 
-[![GitHub](https://img.shields.io/badge/@beatrix--chan-py--todo-181717?style=for-the-badge&logo=github)](https://github.com/beatrix-chan/py-todo) ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python) [![Streamlit](https://img.shields.io/badge/Streamlit-white?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
+[![GitHub](https://img.shields.io/badge/@beatrix--chan-py--todo-181717?style=for-the-badge&logo=github)](https://github.com/beatrix-chan/py-todo) [![License](https://img.shields.io/github/license/beatrix-chan/py-todo?style=for-the-badge)](https://github.com/beatrix-chan/py-todo/blob/main/LICENSE)
+<br />
+![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python) [![Streamlit](https://img.shields.io/badge/Streamlit-white?style=for-the-badge&logo=streamlit)](https://streamlit.io/)<br />
+![Code Duration](https://img.shields.io/badge/Coding_Duration-3_hours-faf0e6?style=for-the-badge)
 
 A to-do list app built with Python and Streamlit.
 
@@ -16,6 +19,8 @@ A to-do list app built with Python and Streamlit.
         - [Creating virtual environment](#creating-virtual-environment)
         - [Install Streamlit](#install-streamlit)
     - [Running `py-todo`](#running-py-todo)
+- [What I have learnt](#what-i-have-learnt)
+- [Contribution](#contribution)
 - [Credits](#credits)
 
 </details>
@@ -92,6 +97,21 @@ streamlit run app.py
 ```
 
 This should now run on [localhost:8501](http://localhost:8501)! Enjoy!
+
+## What I have learnt
+
+Before i started on this project, I used to think that framework only applies to frontend languages like JavaScript (e.g. React, Angular, Express, Next.js, Vue.js, Vite.js) and CSS (e.g. Bootstrap, Bulma, Foundation, Pure, Skeleton). A Python framework gives you a bunch of ready-made tools and libraries to build web apps, websites, or other software. It’s like grabbing a starter kit, so you don’t waste time rewriting the same code over and over. You just dive into the parts that actually make your project different.[^1]
+
+There are two types of Python Frameworks: Full-Stack Frameworks and Micro-Frameworks. Full-Stack Frameworks includes handling databases, sessions, routing, and rendering (i.e. comprehensive backend stuffs), while Micro-Frameworks are lightweight and flexible, and offers basic features to get started with building an application.[^2]
+
+I learnt about [Streamlit](https://streamlit.io) from [@pikacodes's reel](https://www.youtube.com/shorts/tZDuQC36LM8) about Warp. Although there are more other Python frameworks that are available to choose, simple enough with good documentations and community supports like Django, Flask, FastAPI, etc. I felt like Streamlit is just a really good way to start myself to get familiar with Python frameworks even though it's meant for data apps. Thanks to Streamlit's super comprehensive [documentation](https://docs.streamlit.io/) and [Programmingempire's tutorial](https://www.programmingempire.com/how-to-create-a-to-do-list-using-streamlit/), I was able to build `py-todo` within two hours, and completely finished building the app in another hour.
+
+[^1]: GeeksforGeeks, "Top 10 Python Frameworks [2025 Updated]", *GeeksforGeeks*. Accessed: Dec. 02, 2025. [Online]. Available: [https://www.geeksforgeeks.org/blogs/best-python-frameworks/](https://www.geeksforgeeks.org/blogs/best-python-frameworks/#what-is-python-frameworks)
+[^2]: GeeksforGeeks, "Top 10 Python Frameworks [2025 Updated]", *GeeksforGeeks*. Accessed: Dec. 02, 2025. [Online]. Available: [https://www.geeksforgeeks.org/blogs/best-python-frameworks/](https://www.geeksforgeeks.org/blogs/best-python-frameworks/#types-of-python-frameworks)
+
+## Contribution
+
+You may contribute by opening [issues](https://github.com/beatrix-chan/py-todo/issues) or [fork](https://github.com/beatrix-chan/py-todo/fork) the repository and open pull request.
 
 ## Credits
 
