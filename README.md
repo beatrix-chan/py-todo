@@ -1,8 +1,8 @@
 # py-todo
 
-[![GitHub](https://img.shields.io/badge/@beatrix--chan-py--todo-181717?style=for-the-badge&logo=github)](https://github.com/beatrix-chan/py-todo) ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python) ![Streamlit](https://img.shields.io/badge/Streamlit-white?style=for-the-badge&logo=streamlit)
+[![GitHub](https://img.shields.io/badge/@beatrix--chan-py--todo-181717?style=for-the-badge&logo=github)](https://github.com/beatrix-chan/py-todo) ![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python) [![Streamlit](https://img.shields.io/badge/Streamlit-white?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
 
-A to-do list app built mainly with Python.
+A to-do list app built with Python and Streamlit.
 
 <details>
 
@@ -25,6 +25,14 @@ A to-do list app built mainly with Python.
 ![Python,Streamlit,Anaconda](https://skills.syvixor.com/api/icons?perline=15&i=python,streamlit,anaconda)
 
 ## Features
+
+- **Kanban-style** two-column board (To Do / Completed)
+- **Toggle completion with checkboxes** to move tasks between columns
+- **Live task counts** for each column
+- **Quick actions**: Clear Completed and Clear All
+- **Visual feedback** with toasts and balloons
+- **Handy menu links**: About, Report a bug, Get help
+- **Session-based storage** (resets on page reload)
 
 ## Getting Started
 
@@ -86,6 +94,8 @@ streamlit run app.py
 This should now run on [localhost:8501](http://localhost:8501)! Enjoy!
 
 ## Credits
+
+**This project is not sponsored by anyone or any parties**
 
 - [Streamlit](https://streamlit.io)
 - [How to Create a To-Do List Using Streamlit? - Programmingempire](https://www.programmingempire.com/how-to-create-a-to-do-list-using-streamlit/)
