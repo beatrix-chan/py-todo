@@ -1,11 +1,17 @@
 # py-todo
 
-[![GitHub](https://img.shields.io/badge/@beatrix--chan-py--todo-181717?style=for-the-badge&logo=github)](https://github.com/beatrix-chan/py-todo) [![License](https://img.shields.io/github/license/beatrix-chan/py-todo?style=for-the-badge)](https://github.com/beatrix-chan/py-todo/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/badge/@beatrix--chan-py--todo-181717?style=for-the-badge&logo=github)](https://github.com/beatrix-chan/py-todo) [![License](https://img.shields.io/github/license/beatrix-chan/py-todo?style=for-the-badge&color=orange&logo=opensourceinitiative)](https://github.com/beatrix-chan/py-todo/blob/main/LICENSE)
 <br />
-![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python) [![Streamlit](https://img.shields.io/badge/Streamlit-white?style=for-the-badge&logo=streamlit)](https://streamlit.io/)<br />
+![Python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python) [![Streamlit](https://img.shields.io/badge/Streamlit-white?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
+<br />
 ![Code Duration](https://img.shields.io/badge/Coding_Duration-3_hours-faf0e6?style=for-the-badge)
 
 A to-do list app built with Python and Streamlit.
+
+> [!IMPORTANT]
+> **100% human made! Completely no AI was involved in creating this project.**
+
+https://github.com/user-attachments/assets/4872b58d-452c-42d9-94fe-4419423da7a2
 
 <details>
 
@@ -20,6 +26,7 @@ A to-do list app built with Python and Streamlit.
         - [Install Streamlit](#install-streamlit)
     - [Running `py-todo`](#running-py-todo)
 - [What I have learnt](#what-i-have-learnt)
+- [Possible Improvements](#possible-improvements)
 - [Contribution](#contribution)
 - [Credits](#credits)
 
@@ -42,7 +49,7 @@ A to-do list app built with Python and Streamlit.
 ## Getting Started
 
 > [!IMPORTANT]
-> **Prerequisite**: Python 3.13.9+
+> **Prerequisite**: Python 3.13+
 
 It is recommended to use a virtual environment. I personally uses [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), which is a miniature version of Anaconda Distribution. I also use [`mamba`](https://github.com/mamba-org/mamba) as my package manager, and install packages via `conda-forge` channel. You may continue following along if you are using miniconda (assuming if you installed it on your system already; you may skip to [Creating virtual environment](#creating-virtual-environment) if you are already using `mamba` and `conda-forge`), or you may follow [Streamlit](https://docs.streamlit.io/get-started/installation)'s guide on installation.
 
@@ -109,6 +116,13 @@ I learnt about [Streamlit](https://streamlit.io) from [@pikacodes's reel](https:
 [^1]: GeeksforGeeks, "Top 10 Python Frameworks [2025 Updated]", *GeeksforGeeks*. Accessed: Dec. 02, 2025. [Online]. Available: [https://www.geeksforgeeks.org/blogs/best-python-frameworks/](https://www.geeksforgeeks.org/blogs/best-python-frameworks/#what-is-python-frameworks)
 [^2]: GeeksforGeeks, "Top 10 Python Frameworks [2025 Updated]", *GeeksforGeeks*. Accessed: Dec. 02, 2025. [Online]. Available: [https://www.geeksforgeeks.org/blogs/best-python-frameworks/](https://www.geeksforgeeks.org/blogs/best-python-frameworks/#types-of-python-frameworks)
 
+## Possible improvements
+
+- Replace input field with another colour since Red often represents error/bug.
+- Allow drag and drop functionality instead of using checkbox
+- Allow users to set deadlines for their tasks
+- Allow subtasks
+
 ## Contribution
 
 You may contribute by opening [issues](https://github.com/beatrix-chan/py-todo/issues) or [fork](https://github.com/beatrix-chan/py-todo/fork) the repository and open pull request.
@@ -119,3 +133,5 @@ You may contribute by opening [issues](https://github.com/beatrix-chan/py-todo/i
 
 - [Streamlit](https://streamlit.io)
 - [How to Create a To-Do List Using Streamlit? - Programmingempire](https://www.programmingempire.com/how-to-create-a-to-do-list-using-streamlit/)
+- [Zen Browser](https://zen-browser.app/)
+- [Kdenlive](https://kdenlive.org/)
